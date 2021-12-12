@@ -1,0 +1,83 @@
+.nw-overlay {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+.nw-has-overlay .nw-overlay {
+	opacity: 0.1;
+	transition: opacity 1s ease;
+}
+
+.nw-has-overlay:hover .nw-overlay {
+	opacity: 0.95;
+	transition: opacity 1s ease;
+	z-index: 400;
+}
+
+.nw-overlay button {
+	text-align: center;
+	display: inline-block;
+	color: #333;
+	background: #ddd;
+	height: 14px;
+	width: 32px;
+	margin: 0 0 0 2px;
+	border-radius: 2px;
+	font-size: 10px;
+}
+
+.nw-overlay button:hover {
+	color: #333;
+	background: #fff;
+}
+
+.nw-overlay button.btn-spam {
+	color: #333;
+	background: #ff9bdc;
+}
+
+.nw-overlay button.btn-spam:hover {
+	color: white;
+	background: #ff71ce;
+}
+
+.nw-overlay button.btn-trolling {
+	color: #333;
+	background: #84ffd0;
+}
+
+.nw-overlay button.btn-trolling:hover {
+	color: white;
+	background: #50ffbd;
+}
+
+.nw-overlay button.btn-violence {
+	color: #333;
+	background: #ce94ff;
+}
+
+.nw-overlay button.btn-violence:hover {
+	color: white;
+	background: #b967ff;
+}
+
+.nw-overlay button.btn-repost {
+	color: #333;
+	background: #4ddcfe;
+}
+
+.nw-overlay button.btn-repost:hover {
+	color: white;
+	background: #01cdfe;
+}
+
+.nw-overlay button.btn-ceo {
+	color: #333;
+	background: #fffcb5;
+}
+
+.nw-overlay button.btn-ceo:hover {
+	color: black;
+	background: #fffb96;
+}
